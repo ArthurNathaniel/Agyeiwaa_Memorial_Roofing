@@ -328,7 +328,7 @@ body {
 }
 
 .call_to_action .btn:hover {
-    background-color: #013782;
+    background: linear-gradient(180deg, #013782 0%, #1c519a 100%);
 }
 
 footer {
@@ -369,7 +369,10 @@ footer li a:hover {
     font-weight: 900;
 
 }
-
+.last{
+    padding-block: 20px;
+    background:#D3D3D3;
+}
 
 
 @media only screen and (max-width: 900px) {

@@ -21,6 +21,7 @@ body {
 
 .nav-link:hover {
     color: #ec5a31;
+    color: #013782;
 }
 
 .text {
@@ -145,3 +146,35 @@ body {
     color: #fff;
 }
 
+.accordion-button {
+    border-radius: 10px;
+    transition: .25s;
+    background: #f8f8f8;
+    height: 50px;
+    border: none;
+    padding-block: 30px;
+    border-radius: 10px !important;
+    border: none !important;
+    border-top: none !important;
+    outline: none !important;
+    color: #013782;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  .accordion-body {
+    background-color: #f8f8f8;
+    padding-block: 30px;
+  }
+
+  .accordion-item {
+    margin-bottom: 30px;
+  }
+
+  .merit {
+    padding: 0 10% !important;
+    margin-top: 30px;
+  }
+  .us{
+    margin-top: 70px;
+    padding: 0 10%;
+  }

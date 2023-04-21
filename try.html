@@ -1,151 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Swiper demo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="style.css">
-  <!-- Demo styles -->
-  <style>
-   
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
-    
-
-    
-    .up{
-      height: 80px;
-      width: 80px;
-      border: 2px solid  #013782;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto;
-      margin-top: -30px;
-      position: absolute;
-      left: 40%;
-
-    }
-  .up i{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      color: #013782;
-      font-size: 30px;
-  }
-  .up img{
-      display: flex;
-      justify-content: center;
-      align-self: center;
-      align-items: center;
-      color: #013782;
-      width: 30px;  
-      margin: 0 auto;
-margin-top: 15px;    }
-.btn- {
-  margin-top: 80px;
-}
-  </style>
+  <title>Hello, world!</title>
 </head>
 
 <body>
-  <!-- Swiper -->
-  <div class="swiper mySwiper" style="margin-top: 150px;">
-    <div class="swiper-wrapper our-product">
-      <div class="swiper-slide">
-        <div class="p-box">
-          <div class="card">
-            <img src="https://placehold.jp/350x300.png" class="card-img-top" alt="...">
-            <div class="up">
-              <img src="images/steel-beam.png" alt="" style="width:44px;">
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <a href="" class="btn-">Steel Truss</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <h1>Hello, world!</h1>
+ 
 
-      <div class="swiper-slide">
-        <div class="p-box">
-          <div class="card">
-            <img src="https://placehold.jp/350x300.png" class="card-img-top" alt="...">
-            <div class="up">
-              <img src="images/steel-beam.png" alt="" style="width:44px;">
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <a href="" class="btn-">Steel Truss</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="p-box">
-          <div class="card">
-            <img src="https://placehold.jp/350x300.png" class="card-img-top" alt="...">
-            <div class="up">
-              <img src="images/steel-beam.png" alt="" style="width:44px;">
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <a href="" class="btn-">Steel Truss</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="p-box">
-          <div class="card">
-            <img src="https://placehold.jp/350x300.png" class="card-img-top" alt="...">
-            <div class="up">
-              <img src="images/steel-beam.png" alt="" style="width:44px;">
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <a href="" class="btn-">Steel Truss</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
-
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      autoplay:true,
-      slidesPerView: 4,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

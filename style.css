@@ -301,3 +301,12 @@ body {
   .call_to_action .btn:hover{
     background-color: #013782;
   }
+
+  footer{
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 0 10%;
+  }
